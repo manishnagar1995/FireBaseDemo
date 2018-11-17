@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manish.myapplication.MainActivity"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_light"
+    >
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/etvalue1"
+       android:hint="Enter name"
+       />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/etvalue2"
+       android:hint="Enter email"
+       />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/etvalue3"
+       android:hint="Enter Passwoed"
+       />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/etvalue4"
+       android:hint="Re-Enter Passwoed"
+       android:inputType="textPassword"
+       />
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/but1"
+       android:text="Save"
+       android:onClick="dothis"
+       />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Already Register? Login"
+       android:gravity="center"
+       android:textSize="30dp"
+       android:id="@+id/but2"
+       android:onClick="dothis"
+       />
+   />
+
+</LinearLayout>
